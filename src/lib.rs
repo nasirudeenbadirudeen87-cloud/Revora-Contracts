@@ -16050,17 +16050,18 @@ impl RevoraRevenueShare {
 }
 
 #[cfg(test)]
+mod secondary_market_royalty_adversarial_test;
+#[cfg(test)]
 mod test_deferred_priority;
 #[cfg(test)]
 mod test_deposit_revenue_adversarial;
 #[cfg(test)]
 mod test_merkle_proof_depth;
 #[cfg(test)]
+mod test_offering_count_adversarial;
+#[cfg(test)]
+mod test_platform_fee_per_asset_adversarial;
+#[cfg(test)]
 mod test_snapshot_voting_weight;
 #[cfg(test)]
 mod test_storage_layout_version;
-
-#[cfg(test)]
-mod secondary_market_royalty_adversarial_test;
-#[cfg(test)]
-mod test_offering_count_adversarial;
